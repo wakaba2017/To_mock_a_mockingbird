@@ -15,8 +15,8 @@ Module thm_9_3.
   Hypothesis Ha : forall (B : bird), (exists (x' : bird), app A x' = app B x').
   Hypothesis Ha' : forall (x : bird), (exists (x' : bird), app A x' = app (app x A) x').
   (*
-    Coqの証明で、HaからHa'を導く手順がわからなかったため、
-    今回は手動でHa'を作成し、Ha'を使って証明。
+    Coqの証明で、HaからHa'を導く手順が思い浮かばなかったため、
+    今回は手動でHa'を作成し、Ha'を使った照明。
   *)
 
   Theorem thm_9_3 :
